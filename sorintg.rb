@@ -1,0 +1,16 @@
+#Combined Operands
+book_1 = "A Wrinkle in Time"
+
+book_2 = "A Brief History of Time"
+
+puts book_1<=>book_2
+puts book_2<=>book_1
+
+#ASC //DES
+books = ["Charlie and the Chocolate Factory", "War and Peace", "Utopia", "A Brief History of Time", "A Wrinkle in Time"]
+
+# To sort our books in ascending order, in-place
+books.sort! { |firstBook, secondBook| firstBook <=> secondBook }
+
+# Sort your books in descending order, in-place below
+books.sort! { |firstBook, secondBook| secondBook <=> firstBook }
