@@ -24,3 +24,14 @@ unless worktime #execute if workimte = false
 else
     puts "Work!"
 end
+
+####
+ruby_is_eloquent = true
+ruby_is_ugly = false
+
+puts "Ruby is eloquent!" if ruby_is_eloquent
+puts "Ruby's not ugly!" unless ruby_is_ugly
+
+#?: operator
+on_leave = true
+puts on_leave ? "No work today!" : "Go to work"
